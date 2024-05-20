@@ -1,0 +1,6 @@
+[submodule "Kosm/vendor/spdlog"]
+	path = Kosm/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Kosm/vendor/GLFW"]
+	path = Kosm/vendor/GLFW
+	url = https://github.com/TheCherno/glfw

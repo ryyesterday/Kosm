@@ -1,6 +1,7 @@
 #pragma once
 
-#include "Core.h"
+#include "Kosm/Core.h"
+#include "Kosm/Window.h"
 
 namespace Kosm {
 
@@ -11,6 +12,10 @@ namespace Kosm {
 		virtual ~Application();
 
 		void Run();
+
+	private:
+		std::unique_ptr<Window> m_Window;
+		bool m_Running = true;
 	};
 
 	// To be defined in client
